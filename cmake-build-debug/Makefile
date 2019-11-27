@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\eengm\CLionProjects\lab5
+CMAKE_SOURCE_DIR = C:\Users\eengm\CLionProjects\labassignment5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\eengm\CLionProjects\lab5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab5
+# Target rules for targets named labassignment5
 
 # Build rule for target.
-lab5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 lab5
-.PHONY : lab5
+labassignment5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 labassignment5
+.PHONY : labassignment5
 
 # fast build rule for target.
-lab5/fast:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/build
-.PHONY : lab5/fast
+labassignment5/fast:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/build
+.PHONY : labassignment5/fast
 
 Ant.obj: Ant.cpp.obj
 
@@ -128,7 +128,7 @@ Ant.obj: Ant.cpp.obj
 
 # target to build an object file
 Ant.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Ant.cpp.obj
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Ant.cpp.obj
 .PHONY : Ant.cpp.obj
 
 Ant.i: Ant.cpp.i
@@ -137,7 +137,7 @@ Ant.i: Ant.cpp.i
 
 # target to preprocess a source file
 Ant.cpp.i:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Ant.cpp.i
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Ant.cpp.i
 .PHONY : Ant.cpp.i
 
 Ant.s: Ant.cpp.s
@@ -146,8 +146,35 @@ Ant.s: Ant.cpp.s
 
 # target to generate assembly for a file
 Ant.cpp.s:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Ant.cpp.s
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Ant.cpp.s
 .PHONY : Ant.cpp.s
+
+Bee.obj: Bee.cpp.obj
+
+.PHONY : Bee.obj
+
+# target to build an object file
+Bee.cpp.obj:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Bee.cpp.obj
+.PHONY : Bee.cpp.obj
+
+Bee.i: Bee.cpp.i
+
+.PHONY : Bee.i
+
+# target to preprocess a source file
+Bee.cpp.i:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Bee.cpp.i
+.PHONY : Bee.cpp.i
+
+Bee.s: Bee.cpp.s
+
+.PHONY : Bee.s
+
+# target to generate assembly for a file
+Bee.cpp.s:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Bee.cpp.s
+.PHONY : Bee.cpp.s
 
 Gameboard.obj: Gameboard.cpp.obj
 
@@ -155,7 +182,7 @@ Gameboard.obj: Gameboard.cpp.obj
 
 # target to build an object file
 Gameboard.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Gameboard.cpp.obj
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Gameboard.cpp.obj
 .PHONY : Gameboard.cpp.obj
 
 Gameboard.i: Gameboard.cpp.i
@@ -164,7 +191,7 @@ Gameboard.i: Gameboard.cpp.i
 
 # target to preprocess a source file
 Gameboard.cpp.i:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Gameboard.cpp.i
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Gameboard.cpp.i
 .PHONY : Gameboard.cpp.i
 
 Gameboard.s: Gameboard.cpp.s
@@ -173,8 +200,35 @@ Gameboard.s: Gameboard.cpp.s
 
 # target to generate assembly for a file
 Gameboard.cpp.s:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Gameboard.cpp.s
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Gameboard.cpp.s
 .PHONY : Gameboard.cpp.s
+
+Hive.obj: Hive.cpp.obj
+
+.PHONY : Hive.obj
+
+# target to build an object file
+Hive.cpp.obj:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Hive.cpp.obj
+.PHONY : Hive.cpp.obj
+
+Hive.i: Hive.cpp.i
+
+.PHONY : Hive.i
+
+# target to preprocess a source file
+Hive.cpp.i:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Hive.cpp.i
+.PHONY : Hive.cpp.i
+
+Hive.s: Hive.cpp.s
+
+.PHONY : Hive.s
+
+# target to generate assembly for a file
+Hive.cpp.s:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Hive.cpp.s
+.PHONY : Hive.cpp.s
 
 Insect.obj: Insect.cpp.obj
 
@@ -182,7 +236,7 @@ Insect.obj: Insect.cpp.obj
 
 # target to build an object file
 Insect.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Insect.cpp.obj
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Insect.cpp.obj
 .PHONY : Insect.cpp.obj
 
 Insect.i: Insect.cpp.i
@@ -191,7 +245,7 @@ Insect.i: Insect.cpp.i
 
 # target to preprocess a source file
 Insect.cpp.i:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Insect.cpp.i
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Insect.cpp.i
 .PHONY : Insect.cpp.i
 
 Insect.s: Insect.cpp.s
@@ -200,7 +254,7 @@ Insect.s: Insect.cpp.s
 
 # target to generate assembly for a file
 Insect.cpp.s:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/Insect.cpp.s
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/Insect.cpp.s
 .PHONY : Insect.cpp.s
 
 main.obj: main.cpp.obj
@@ -209,7 +263,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -218,7 +272,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -227,7 +281,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -236,15 +290,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... lab5
 	@echo ... edit_cache
+	@echo ... labassignment5
 	@echo ... rebuild_cache
 	@echo ... Ant.obj
 	@echo ... Ant.i
 	@echo ... Ant.s
+	@echo ... Bee.obj
+	@echo ... Bee.i
+	@echo ... Bee.s
 	@echo ... Gameboard.obj
 	@echo ... Gameboard.i
 	@echo ... Gameboard.s
+	@echo ... Hive.obj
+	@echo ... Hive.i
+	@echo ... Hive.s
 	@echo ... Insect.obj
 	@echo ... Insect.i
 	@echo ... Insect.s

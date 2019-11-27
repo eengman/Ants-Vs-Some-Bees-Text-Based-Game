@@ -43,21 +43,21 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\eengm\CLionProjects\lab5
+CMAKE_SOURCE_DIR = C:\Users\eengm\CLionProjects\labassignment5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\eengm\CLionProjects\lab5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lab5.dir/all
+all: CMakeFiles/labassignment5.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lab5.dir/clean
+clean: CMakeFiles/labassignment5.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/lab5.dir
+# Target rules for target CMakeFiles/labassignment5.dir
 
 # All Build rule for target.
-CMakeFiles/lab5.dir/all:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/depend
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target lab5"
-.PHONY : CMakeFiles/lab5.dir/all
+CMakeFiles/labassignment5.dir/all:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/depend
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target labassignment5"
+.PHONY : CMakeFiles/labassignment5.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lab5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/lab5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\lab5\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/lab5.dir/rule
+CMakeFiles/labassignment5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/labassignment5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eengm\CLionProjects\labassignment5\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/labassignment5.dir/rule
 
 # Convenience name for target.
-lab5: CMakeFiles/lab5.dir/rule
+labassignment5: CMakeFiles/labassignment5.dir/rule
 
-.PHONY : lab5
+.PHONY : labassignment5
 
 # clean rule for target.
-CMakeFiles/lab5.dir/clean:
-	$(MAKE) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/clean
-.PHONY : CMakeFiles/lab5.dir/clean
+CMakeFiles/labassignment5.dir/clean:
+	$(MAKE) -f CMakeFiles\labassignment5.dir\build.make CMakeFiles/labassignment5.dir/clean
+.PHONY : CMakeFiles/labassignment5.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

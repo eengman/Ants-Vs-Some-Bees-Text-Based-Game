@@ -1,11 +1,13 @@
 
 
-#ifndef LAB5_INSECT_H
-#define LAB5_INSECT_H
+#ifndef LABASSIGNMENT5_INSECT_H
+#define LABASSIGNMENT5_INSECT_H
 
 #include <string>
 #include <iostream>
-#include "B.h"
+#include "Hive.h"
+
+//#include "Gameboard.h"
 
 using namespace std;
 
@@ -20,7 +22,7 @@ public:
 
     virtual void reduceArmor(int amount);
 
-    virtual void action() = 0;
+    virtual void action(int &foodBank, vector <Insect*> &vect, vector <Insect*> &vect2) = 0;
 
     void setPosition(int position);
 
@@ -31,5 +33,4 @@ public:
 };
 
 
-
-#endif //LAB5_INSECT_H
+#endif //LABASSIGNMENT5_INSECT_H
